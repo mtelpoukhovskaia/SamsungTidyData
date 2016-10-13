@@ -6,7 +6,7 @@
 
 ##The CodeBook.md file
 
-####The code book file includes the variable names and explanations for what they mean, as well as the steps taken to created the tidy data set.
+####The code book file includes the variable names and explanations for what they mean, as well as the steps taken to create the tidy data set.
 
 ##The run_analysis.R script
 
