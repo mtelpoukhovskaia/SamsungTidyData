@@ -73,4 +73,13 @@ tBodyGyroJerkMean""
 ###The data is divided into two parts: some subjects were in training group and some in test group.  Within each group, the data is divided into three files.  In one file (subject_numbers), the subject numbers are included in one column.  In the second file (y), the activity name codes are included in one column.  In the third file (X), all the parameters are included in different columns.  These columns have names that come from the file features that is common to both the training and test groups.
 
 ###The data is processed in the following steps:
-####1. The 
+1. The columns from three files (subject_numbers, y, X) are combined for the train and test sets individually, resulting in two files.  
+2. Then, the rows of the two resultant files are combined to yield one set of data with all subjects.
+3. The columns are labeled with their appropriate names that are taken from the file features.
+4. Only the columns with names that end in mean() and std() are subset into a new data set.
+5. Activity labels replace activity nuumbers (as detailed in the section above).
+6. To make the variable names more readable, "-" are removed.
+7. The data is ordered so that susbject numbers are in ascending order.
+8. The data is averaged for each activity of each subject.
+9. The resulting data set is written as a .txt file to the directory with the original files.
+
