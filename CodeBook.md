@@ -81,5 +81,5 @@ tBodyGyroJerkMean""
 6. To make the variable names more readable, "-" are removed.
 7. The data is ordered so that subject numbers are in ascending order.
 8. The data is averaged for each activity of each subject.
-9. The resulting data set is written as a .txt file to the directory with the original files.
+9. The resulting data set is written as a .txt file to the directory with the original files.  It is named SamsungDataAverages.
 
