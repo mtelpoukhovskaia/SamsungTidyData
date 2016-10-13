@@ -4,7 +4,7 @@
 ##Then it produces a new tiny data set with averages for each activity 
 ###for each of the subjects in each category
 
-##Package ply is required for this script to run
+##Package plyr is required for this script to run
 library(plyr)
 
 ##First, the files are downloaded and uncompressed
