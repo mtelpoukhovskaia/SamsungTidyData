@@ -79,7 +79,7 @@ tBodyGyroJerkMean""
 4. Only the columns with names that end in mean() and std() are subset into a new data set.
 5. Activity labels replace activity nuumbers (as detailed in the section above).
 6. To make the variable names more readable, "-" are removed.
-7. The data is ordered so that susbject numbers are in ascending order.
+7. The data is ordered so that subject numbers are in ascending order.
 8. The data is averaged for each activity of each subject.
 9. The resulting data set is written as a .txt file to the directory with the original files.
 
