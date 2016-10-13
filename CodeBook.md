@@ -1,6 +1,6 @@
 #Code book
 
-##Variable names and explanations
+##A. Variable names and explanations
 
 ###In the data set, there are 30 subjects who do one of 6 activities: walking, walking upstairs, walking downstairs, sitting, standing, and laying.  The individual data from the phone is processsed to include various parameters that are described in the features_info file in the data set.  It is quoted here:
 
@@ -68,7 +68,7 @@ tBodyGyroJerkMean""
 5 STANDING
 6 LAYING"
 
-##Processing of the data
+##B. Processing of the data
 
 ###The data is divided into two parts: some subjects were in training group and some in test group.  Within each group, the data is divided into three files.  In one file (subject_numbers), the subject numbers are included in one column.  In the second file (y), the activity name codes are included in one column.  In the third file (X), all the parameters are included in different columns.  These columns have names that come from the file features that is common to both the training and test groups.
 
